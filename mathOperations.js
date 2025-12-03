@@ -1,0 +1,12 @@
+let number1 = prompt("entrer le premier nombre ");
+let number2 = prompt("enter le deuxieme nombre ");
+let a = Number(number1);
+let b = Number(number2);
+let s = a + b;
+console.log(" somme: " + s);
+let d = a - b;
+console.log(" différence: " + d);
+let p = a * b;
+console.log("  produit: " + p);
+let div = a / b;
+console.log(" division: " + div);
