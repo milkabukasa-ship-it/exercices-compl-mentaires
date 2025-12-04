@@ -1,12 +1,12 @@
 let nombreachat = prompt("Entrer un montant d'achat");
-let a = Number(nombreachat);
+let z = Number(nombreachat);
 
-if (a < 50) {
-    alert("Montant achat : " + a);
-} else if (a >= 50 && a <= 100) {
-    alert("Montant achat : " + ((a * 10) / 100));
-} else if (a >= 101 && a <= 200) {
-    alert("Montant achat : " + ((a * 15) / 100));
+if (z < 50) {
+    alert("Montant achat : " + z);
+} else if (z >= 50 && z <= 100) {
+    alert("Montant achat : " + ((z * 90) / 100));
+} else if (z >= 101 && z <= 200) {
+    alert("Montant achat : " + ((z * 85) / 100));
 } else {
-    alert("Montant achat : " + ((a * 20) / 100));
+    alert("Montant achat : " + ((z * 80) / 100));
 }

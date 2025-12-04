@@ -8,7 +8,7 @@ if (t < 0) {
     alert("Agréable");
 } else if (t >= 26 && t <= 35) {
     alert("Chaud");
-} else (t > 35); {
+} else  {
     alert("Canicule");
 }
 
